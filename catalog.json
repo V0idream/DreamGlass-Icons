@@ -1,0 +1,131 @@
+[
+  {
+    "id": "identity-v",
+    "label": "第五人格",
+    "packages": [
+      "com.netease.dwrg"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "delta-force",
+    "label": "三角洲行动",
+    "packages": [
+      "com.tencent.tmgp.dfm"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "wallet",
+    "label": "系统钱包",
+    "packages": [
+      "com.finshell.wallet"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "plague-inc",
+    "label": "瘟疫公司",
+    "packages": [
+      "com.miniclip.plagueinc"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "wooden-letter",
+    "label": "一个木函",
+    "packages": [
+      "com.One.WoodenLetter"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "sakurafrp",
+    "label": "SakuraFRP",
+    "packages": [
+      "com.natfrp.launcher"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "hotlink",
+    "label": "Hotlink",
+    "packages": [
+      "my.com.maxis.hotlink.production"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "perpetual-calendar",
+    "label": "万年历",
+    "packages": [
+      "com.youloft.calendar"
+    ],
+    "dynamic": "calendar"
+  },
+  {
+    "id": "agc-camera",
+    "label": "AGC100in1U",
+    "packages": [
+      "com.mediatek.expert.mtkcamhelper"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "camera",
+    "label": "相机",
+    "packages": [
+      "com.oplus.camera",
+      "com.oneplus.camera",
+      "com.oppo.camera"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "phone",
+    "label": "电话",
+    "packages": [
+      "com.android.dialer",
+      "com.google.android.dialer"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "messages",
+    "label": "信息",
+    "packages": [
+      "com.android.mms",
+      "com.google.android.apps.messaging"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "gallery",
+    "label": "相册",
+    "packages": [
+      "com.coloros.gallery3d",
+      "com.oplus.gallery"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "clock",
+    "label": "时钟",
+    "packages": [
+      "com.coloros.alarmclock",
+      "com.android.deskclock",
+      "com.google.android.deskclock"
+    ],
+    "dynamic": "clock"
+  },
+  {
+    "id": "calendar",
+    "label": "日历",
+    "packages": [
+      "com.coloros.calendar",
+      "com.android.calendar",
+      "com.google.android.calendar"
+    ],
+    "dynamic": "calendar"
+  }
+]

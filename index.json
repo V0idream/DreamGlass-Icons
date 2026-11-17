@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "icons": [
+    {
+      "package": "com.netease.dwrg",
+      "label": "第五人格",
+      "path": "icons/identity-v.png",
+      "sha256": "c41381d7a2238fa68590d109d64990bfc03b79132d1be4df05d1f986e913ecba",
+      "dynamic": ""
+    },
+    {
+      "package": "com.tencent.tmgp.dfm",
+      "label": "三角洲行动",
+      "path": "icons/delta-force.png",
+      "sha256": "da180a290d1ef8d25b90c19a0a1bbc6e1f707c18063c9344412ab04fbf2fc7db",
+      "dynamic": ""
+    },
+    {
+      "package": "com.finshell.wallet",
+      "label": "系统钱包",
+      "path": "icons/wallet.png",
+      "sha256": "2eea3afceb058ff04f16d96a369c9628d55db9536c89e0dd265ec7d9b3add593",
+      "dynamic": ""
+    },
+    {
+      "package": "com.miniclip.plagueinc",
+      "label": "瘟疫公司",
+      "path": "icons/plague-inc.png",
+      "sha256": "d602403213a381e006944d9432e5bd0d0fc61d848846b049a44bfbad4cf3b0cd",
+      "dynamic": ""
+    },
+    {
+      "package": "com.One.WoodenLetter",
+      "label": "一个木函",
+      "path": "icons/wooden-letter.png",
+      "sha256": "28b78fa9283ae242191a2e25d65dc527db53da737492d6c51e5eeefff67f3a7b",
+      "dynamic": ""
+    },
+    {
+      "package": "com.natfrp.launcher",
+      "label": "SakuraFRP",
+      "path": "icons/sakurafrp.png",
+      "sha256": "0b71a6b571459026c1fd7e5b4266ea5ba0efdd279267a1e0fa3c29a364691806",
+      "dynamic": ""
+    },
+    {
+      "package": "my.com.maxis.hotlink.production",
+      "label": "Hotlink",
+      "path": "icons/hotlink.png",
+      "sha256": "d98cbdfd1e1fa0fafbc93ba830d8eb9b86e9e674ef81f09937077bdfdae9d967",
+      "dynamic": ""
+    },
+    {
+      "package": "com.youloft.calendar",
+      "label": "万年历",
+      "path": "icons/perpetual-calendar.png",
+      "sha256": "82e9f4809f769f14bca66173fad7cc403d8a551b4262b251fcd18f5ac8b40880",
+      "dynamic": "calendar"
+    },
+    {
+      "package": "com.mediatek.expert.mtkcamhelper",
+      "label": "AGC100in1U",
+      "path": "icons/agc-camera.png",
+      "sha256": "dbe464927daed33dbb730798a0b59dc5f6f197c70b815f05927697c99e280dba",
+      "dynamic": ""
+    },
+    {
+      "package": "com.oplus.camera",
+      "label": "相机",
+      "path": "icons/camera.png",
+      "sha256": "49c56333ce70f553167efc5632e70b82a538f28d69865a2e9896b3dadb55a120",
+      "dynamic": ""
+    },
+    {
+      "package": "com.oneplus.camera",
+      "label": "相机",
+      "path": "icons/camera.png",
+      "sha256": "49c56333ce70f553167efc5632e70b82a538f28d69865a2e9896b3dadb55a120",
+      "dynamic": ""
+    },
+    {
+      "package": "com.oppo.camera",
+      "label": "相机",
+      "path": "icons/camera.png",
+      "sha256": "49c56333ce70f553167efc5632e70b82a538f28d69865a2e9896b3dadb55a120",
+      "dynamic": ""
+    },
+    {
+      "package": "com.android.dialer",
+      "label": "电话",
+      "path": "icons/phone.png",
+      "sha256": "48b3dab614b94b1f008853cee62ab5b54cef13d6c8a7e414775bc0543eae7e5a",
+      "dynamic": ""
+    },
+    {
+      "package": "com.google.android.dialer",
+      "label": "电话",
+      "path": "icons/phone.png",
+      "sha256": "48b3dab614b94b1f008853cee62ab5b54cef13d6c8a7e414775bc0543eae7e5a",
+      "dynamic": ""
+    },
+    {
+      "package": "com.android.mms",
+      "label": "信息",
+      "path": "icons/messages.png",
+      "sha256": "fffac647cb127416703763ef4c88be41610d8a80b970fa34f3b2af9cd0ed2814",
+      "dynamic": ""
+    },
+    {
+      "package": "com.google.android.apps.messaging",
+      "label": "信息",
+      "path": "icons/messages.png",
+      "sha256": "fffac647cb127416703763ef4c88be41610d8a80b970fa34f3b2af9cd0ed2814",
+      "dynamic": ""
+    },
+    {
+      "package": "com.coloros.gallery3d",
+      "label": "相册",
+      "path": "icons/gallery.png",
+      "sha256": "764dc8936653650e907db99933b146d67be090a53ae5d8c2232d8cf3780714a4",
+      "dynamic": ""
+    },
+    {
+      "package": "com.oplus.gallery",
+      "label": "相册",
+      "path": "icons/gallery.png",
+      "sha256": "764dc8936653650e907db99933b146d67be090a53ae5d8c2232d8cf3780714a4",
+      "dynamic": ""
+    },
+    {
+      "package": "com.coloros.alarmclock",
+      "label": "时钟",
+      "path": "icons/clock.png",
+      "sha256": "66eb01be5a044534872de98288386358a21da9cddbcb6a28d4358fc7189c55ef",
+      "dynamic": "clock"
+    },
+    {
+      "package": "com.android.deskclock",
+      "label": "时钟",
+      "path": "icons/clock.png",
+      "sha256": "66eb01be5a044534872de98288386358a21da9cddbcb6a28d4358fc7189c55ef",
+      "dynamic": "clock"
+    },
+    {
+      "package": "com.google.android.deskclock",
+      "label": "时钟",
+      "path": "icons/clock.png",
+      "sha256": "66eb01be5a044534872de98288386358a21da9cddbcb6a28d4358fc7189c55ef",
+      "dynamic": "clock"
+    },
+    {
+      "package": "com.coloros.calendar",
+      "label": "日历",
+      "path": "icons/calendar.png",
+      "sha256": "a6786ea8c191b9f426c3c3edc6b9900bb43b4e0d74f04fea0340901d80faf02f",
+      "dynamic": "calendar"
+    },
+    {
+      "package": "com.android.calendar",
+      "label": "日历",
+      "path": "icons/calendar.png",
+      "sha256": "a6786ea8c191b9f426c3c3edc6b9900bb43b4e0d74f04fea0340901d80faf02f",
+      "dynamic": "calendar"
+    },
+    {
+      "package": "com.google.android.calendar",
+      "label": "日历",
+      "path": "icons/calendar.png",
+      "sha256": "a6786ea8c191b9f426c3c3edc6b9900bb43b4e0d74f04fea0340901d80faf02f",
+      "dynamic": "calendar"
+    }
+  ]
+}
