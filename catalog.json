@@ -127,5 +127,93 @@
       "com.google.android.calendar"
     ],
     "dynamic": "calendar"
+  },
+  {
+    "id": "google-flow",
+    "label": "Google Flow",
+    "packages": [
+      "com.google.android.apps.labs.whisk"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "civil-code",
+    "label": "民法典速查",
+    "packages": [
+      "io.github.civilcodelocal"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "strinova",
+    "label": "卡拉彼丘",
+    "packages": [
+      "com.idreamsky.klbqm.nearme.gamecenter"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "picacg",
+    "label": "PicACG",
+    "packages": [
+      "com.picacomic.fregata"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "sevenfresh",
+    "label": "七鲜",
+    "packages": [
+      "com.xstore.sevenfresh"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "gpu-gflops",
+    "label": "GPU GFLOPS",
+    "packages": [
+      "com.ioncannon.cpuburn.gpugflops"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "clicker-ultra",
+    "label": "定时点击器Ultra",
+    "packages": [
+      "com.example.littleclicker"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "alipay-installb",
+    "label": "支付宝 InstallB",
+    "packages": [
+      "im.hoho.alipayInstallB"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "kards",
+    "label": "KARDS",
+    "packages": [
+      "com.android1939.kards"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "mpdl",
+    "label": "MPDL",
+    "packages": [
+      "me.sukimon.mdl"
+    ],
+    "dynamic": ""
+  },
+  {
+    "id": "floating-camera",
+    "label": "Floating Camera",
+    "packages": [
+      "com.codex.floatingcamera"
+    ],
+    "dynamic": ""
   }
 ]
