@@ -288,6 +288,46 @@
       "sha256": "35653129254dcc2485ef0fe63fdc0d4aed1a5cc245b4760286dc68f6835705a3",
       "dynamic": "",
       "render": "engraved"
+    },
+    {
+      "package": "com.tencent.mf.uam",
+      "label": "暗区突围",
+      "path": "icons/arena-breakout.png",
+      "sha256": "41982ededc4e721afde01b00540ccfcabe6cb0d9b9cd2a736165dafc01e5a242",
+      "dynamic": "",
+      "render": "engraved"
+    },
+    {
+      "package": "com.dragon.read",
+      "label": "番茄免费小说",
+      "path": "icons/tomato-novel.png",
+      "sha256": "d40d932fd7f1db43be2d832a5305250f35df708631fd933669bd32e499d4eedf",
+      "dynamic": "",
+      "render": "engraved"
+    },
+    {
+      "package": "com.threebody.EventHorizon",
+      "label": "三体视界",
+      "path": "icons/threebody.png",
+      "sha256": "93f6f5cdb798ca139989a12f217fb7b7175f7f57dc4a9c5c5fc9ea84bd1dbf63",
+      "dynamic": "",
+      "render": "engraved"
+    },
+    {
+      "package": "com.hypergryph.arknights",
+      "label": "明日方舟",
+      "path": "icons/arknights.png",
+      "sha256": "5428afd79ab1a2476c8698b8a1699334eb6c40a038635878663bf8788d16a68e",
+      "dynamic": "",
+      "render": "engraved"
+    },
+    {
+      "package": "com.android.vending",
+      "label": "Google Play 商店",
+      "path": "icons/google-play.png",
+      "sha256": "48168c86cb19bdd9cfbb4af82b606f1a87776841afa5e87df8173eba6c37efac",
+      "dynamic": "",
+      "render": "engraved"
     }
   ]
 }

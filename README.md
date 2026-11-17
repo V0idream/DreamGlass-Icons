@@ -2,7 +2,7 @@
 
 供 DreamGlass ColorOS 17 使用的独立、按需下载图标库。安装包不内置这些定制素材。应用在本机按包名匹配，只下载已安装应用对应的图标，不上传应用列表。
 
-目前包含 27 份图稿、36 个包名映射：第五人格、三角洲行动、系统钱包、瘟疫公司、一个木函、SakuraFRP、Hotlink、万年历、AGC 相机，以及相机、电话、信息、相册、时钟、日历；现新增 Google Flow、民法典速查、卡拉彼丘、PicACG、七鲜、GPU GFLOPS、定时点击器Ultra、支付宝 InstallB、KARDS、Floating Camera、MPDL 和 TheNOexistenceNofyouANDme。
+目前包含 32 份图稿、41 个包名映射：第五人格、三角洲行动、系统钱包、瘟疫公司、一个木函、SakuraFRP、Hotlink、万年历、AGC 相机，以及相机、电话、信息、相册、时钟、日历；另含 Google Flow、民法典速查、卡拉彼丘、PicACG、七鲜、GPU GFLOPS、定时点击器Ultra、支付宝 InstallB、KARDS、Floating Camera、MPDL 和 TheNOexistenceNofyouANDme。本次新增暗区突围、番茄免费小说、三体视界、明日方舟和 Google Play 商店。
 
 ![图标前景预览](preview.png)
 
@@ -14,7 +14,7 @@
 
 用户自行上传的图片只保存在设备本地，优先于在线库，保留上传图片的原始颜色，不自动转为浮雕。可在自定义页面恢复所选应用的默认处理。
 
-安卓默认图标由客户端匹配系统默认资源后统一生成玻璃机器人，不给每个占位图标应用建立专门适配。16 份精细图稿使用内置 imagegen，参考原图提取人物、发丝、眼睛、服饰、镜头和标志轮廓，生成银白玻璃浮雕；不再将复杂人物换成简单语义符号。客户端保留图稿的灰阶细节。图标底板仍实时采样共享壁纸纹理。
+安卓默认图标由客户端匹配系统默认资源后统一生成玻璃机器人，不给每个占位图标应用建立专门适配。19 份精细图稿使用内置 imagegen，参考原图提取人物、发丝、眼睛、服饰、镜头和标志轮廓，生成银白玻璃浮雕；不再将复杂人物换成简单语义符号。番茄小说与三体视界使用精确矢量轮廓和分层玻璃明暗，保证种子镂空和轨道间隙透明。客户端保留图稿的灰阶细节。图标底板仍实时采样共享壁纸纹理。
 
 「图标背景模糊」可在 0–100% 间调整，0% 为清晰底板，默认 26%；前景线条不受模糊影响。预制与实时模式共用，滑块松手后按需准备一次，桌面滑动不会触发壁纸读取或重新模糊。
 
@@ -53,6 +53,7 @@ com.finshell.wallet.webp
 
 - 简洁符号编辑 `src/*.svg`；精细图稿源文件位于 `src-raster/*.png`。`catalog.json` 维护包名、源文件和渲染方式。
 - `prompts/engraved-2026-11-17.json` 保存生图提示词。构建只统一尺寸及透明安全留白，不重新描画细节。
+- `prompts/additions-2026-11-17-five.json` 保存本次新增图稿的生图候选提示词；番茄小说与三体视界最终采用 `src/*.svg`，其余三款采用 `src-raster/*.png`。
 - 安装 `Pillow` 和 `fonttools`，执行 `python tools/build.py`。
 - 脚本重新生成 `icons/*.png`、`index.json` 的散列与 `preview.png`。
 - `python tools/validate.py` 检查所有公开数据及素材。

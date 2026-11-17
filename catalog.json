@@ -255,5 +255,43 @@
     "dynamic": "",
     "source": "src-raster/noexistence.png",
     "render": "engraved"
+  },
+  {
+    "id": "arena-breakout",
+    "label": "暗区突围",
+    "packages": ["com.tencent.mf.uam"],
+    "dynamic": "",
+    "source": "src-raster/arena-breakout.png",
+    "render": "engraved"
+  },
+  {
+    "id": "tomato-novel",
+    "label": "番茄免费小说",
+    "packages": ["com.dragon.read"],
+    "dynamic": "",
+    "render": "engraved"
+  },
+  {
+    "id": "threebody",
+    "label": "三体视界",
+    "packages": ["com.threebody.EventHorizon"],
+    "dynamic": "",
+    "render": "engraved"
+  },
+  {
+    "id": "arknights",
+    "label": "明日方舟",
+    "packages": ["com.hypergryph.arknights"],
+    "dynamic": "",
+    "source": "src-raster/arknights.png",
+    "render": "engraved"
+  },
+  {
+    "id": "google-play",
+    "label": "Google Play 商店",
+    "packages": ["com.android.vending"],
+    "dynamic": "",
+    "source": "src-raster/google-play.png",
+    "render": "engraved"
   }
 ]
