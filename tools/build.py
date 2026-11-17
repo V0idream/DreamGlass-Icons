@@ -55,11 +55,22 @@ def main():
     index=json.loads((ROOT/'catalog.json').read_text(encoding='utf8'));entries=[];preview=[]
     (ROOT/'icons').mkdir(exist_ok=True)
     for item in index:
-        name=item['id'];svg=(ROOT/'src'/f'{name}.svg').read_text(encoding='utf8');image=render(svg)
+        name=item['id']
+        if item.get('source'):
+            source=(ROOT/item['source']).resolve()
+            assert source.parent==ROOT/'src-raster' and source.suffix=='.png'
+            # Format/size normalization only. No contours or shading are repainted.
+            with Image.open(source) as im:
+                # Consistent safe area protects portrait fringes from the launcher's round mask.
+                artwork=im.convert('RGBA');artwork.thumbnail((224,224),Image.Resampling.LANCZOS)
+                image=Image.new('RGBA',(256,256))
+                image.alpha_composite(artwork,((256-artwork.width)//2,(256-artwork.height)//2))
+        else:
+            svg=(ROOT/'src'/f'{name}.svg').read_text(encoding='utf8');image=render(svg)
         path=ROOT/'icons'/f'{name}.png';image.save(path,optimize=True)
         sha=hashlib.sha256(path.read_bytes()).hexdigest()
         for package in item['packages']:
-            entries.append(dict(package=package,label=item['label'],path=f'icons/{name}.png',sha256=sha,dynamic=item.get('dynamic','')))
+            entries.append(dict(package=package,label=item['label'],path=f'icons/{name}.png',sha256=sha,dynamic=item.get('dynamic',''),render=item.get('render','')))
         preview.append((item['label'],image))
     (ROOT/'index.json').write_text(json.dumps(dict(schema=1,icons=entries),ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     cols=5;rows=math.ceil(len(preview)/cols);board=Image.new('RGB',(cols*180,rows*205),'#243444');d=ImageDraw.Draw(board)

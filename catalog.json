@@ -5,7 +5,9 @@
     "packages": [
       "com.netease.dwrg"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/identity-v.png",
+    "render": "engraved"
   },
   {
     "id": "delta-force",
@@ -13,7 +15,9 @@
     "packages": [
       "com.tencent.tmgp.dfm"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/delta-force.png",
+    "render": "engraved"
   },
   {
     "id": "wallet",
@@ -45,7 +49,9 @@
     "packages": [
       "com.natfrp.launcher"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/sakurafrp.png",
+    "render": "engraved"
   },
   {
     "id": "hotlink",
@@ -53,7 +59,9 @@
     "packages": [
       "my.com.maxis.hotlink.production"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/hotlink.png",
+    "render": "engraved"
   },
   {
     "id": "perpetual-calendar",
@@ -69,7 +77,9 @@
     "packages": [
       "com.mediatek.expert.mtkcamhelper"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/agc-camera.png",
+    "render": "engraved"
   },
   {
     "id": "camera",
@@ -134,7 +144,9 @@
     "packages": [
       "com.google.android.apps.labs.whisk"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/google-flow.png",
+    "render": "engraved"
   },
   {
     "id": "civil-code",
@@ -142,7 +154,9 @@
     "packages": [
       "io.github.civilcodelocal"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/civil-code.png",
+    "render": "engraved"
   },
   {
     "id": "strinova",
@@ -150,7 +164,9 @@
     "packages": [
       "com.idreamsky.klbqm.nearme.gamecenter"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/strinova.png",
+    "render": "engraved"
   },
   {
     "id": "picacg",
@@ -158,7 +174,9 @@
     "packages": [
       "com.picacomic.fregata"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/picacg.png",
+    "render": "engraved"
   },
   {
     "id": "sevenfresh",
@@ -166,7 +184,9 @@
     "packages": [
       "com.xstore.sevenfresh"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/sevenfresh.png",
+    "render": "engraved"
   },
   {
     "id": "gpu-gflops",
@@ -174,7 +194,9 @@
     "packages": [
       "com.ioncannon.cpuburn.gpugflops"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/gpu-gflops.png",
+    "render": "engraved"
   },
   {
     "id": "clicker-ultra",
@@ -182,7 +204,9 @@
     "packages": [
       "com.example.littleclicker"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/clicker-ultra.png",
+    "render": "engraved"
   },
   {
     "id": "alipay-installb",
@@ -190,7 +214,9 @@
     "packages": [
       "im.hoho.alipayInstallB"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/alipay-installb.png",
+    "render": "engraved"
   },
   {
     "id": "kards",
@@ -198,7 +224,9 @@
     "packages": [
       "com.android1939.kards"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/kards.png",
+    "render": "engraved"
   },
   {
     "id": "mpdl",
@@ -206,7 +234,9 @@
     "packages": [
       "me.sukimon.mdl"
     ],
-    "dynamic": ""
+    "dynamic": "",
+    "source": "src-raster/mpdl.png",
+    "render": "engraved"
   },
   {
     "id": "floating-camera",
@@ -215,5 +245,15 @@
       "com.codex.floatingcamera"
     ],
     "dynamic": ""
+  },
+  {
+    "id": "noexistence",
+    "label": "TheNOexistenceNofyouANDme",
+    "packages": [
+      "com.nino.tulpa.google"
+    ],
+    "dynamic": "",
+    "source": "src-raster/noexistence.png",
+    "render": "engraved"
   }
 ]

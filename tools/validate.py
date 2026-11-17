@@ -14,6 +14,7 @@ for e in data['icons']:
     with Image.open(p) as im:
         assert im.format=='PNG' and im.size==(256,256) and im.mode=='RGBA'
         assert im.getchannel('A').getextrema()==(0,255)
+    assert e.get('render','') in ('','engraved')
     assert e.get('dynamic','') in ('','clock','calendar')
 assert len(data['icons'])<=500
 print(f'Validated {len(seen)} package mappings and all PNG hashes/geometry')
