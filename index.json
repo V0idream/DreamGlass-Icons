@@ -328,6 +328,14 @@
       "sha256": "48168c86cb19bdd9cfbb4af82b606f1a87776841afa5e87df8173eba6c37efac",
       "dynamic": "",
       "render": "engraved"
+    },
+    {
+      "package": "com.yunx.app",
+      "label": "云析",
+      "path": "icons/yunxi.png",
+      "sha256": "ac1e0f8a99465c05b344bd1c8b8c3a60cebf7f29dc29dfab317ac8920bd0ab5c",
+      "dynamic": "",
+      "render": "engraved"
     }
   ]
 }

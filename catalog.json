@@ -293,5 +293,13 @@
     "dynamic": "",
     "source": "src-raster/google-play.png",
     "render": "engraved"
+  },
+  {
+    "id": "yunxi",
+    "label": "云析",
+    "packages": ["com.yunx.app"],
+    "dynamic": "",
+    "source": "src-raster/yunxi.png",
+    "render": "engraved"
   }
 ]

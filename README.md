@@ -2,7 +2,7 @@
 
 供 DreamGlass ColorOS 17 使用的独立、按需下载图标库。安装包不内置这些定制素材。应用在本机按包名匹配，只下载已安装应用对应的图标，不上传应用列表。
 
-目前包含 32 份图稿、41 个包名映射：第五人格、三角洲行动、系统钱包、瘟疫公司、一个木函、SakuraFRP、Hotlink、万年历、AGC 相机，以及相机、电话、信息、相册、时钟、日历；另含 Google Flow、民法典速查、卡拉彼丘、PicACG、七鲜、GPU GFLOPS、定时点击器Ultra、支付宝 InstallB、KARDS、Floating Camera、MPDL 和 TheNOexistenceNofyouANDme。本次新增暗区突围、番茄免费小说、三体视界、明日方舟和 Google Play 商店。
+目前包含 33 份图稿、42 个包名映射，包括第五人格、三角洲行动、系统钱包、瘟疫公司、一个木函、SakuraFRP、Hotlink、万年历、AGC 相机，以及相机、电话、信息、相册、时钟、日历。另有 Google Flow、民法典速查、卡拉彼丘、PicACG、七鲜、GPU GFLOPS、定时点击器Ultra、支付宝 InstallB、KARDS、Floating Camera、MPDL、TheNOexistenceNofyouANDme、暗区突围、番茄免费小说、三体视界、明日方舟和 Google Play 商店。本次新增云析（`com.yunx.app`）。
 
 ![图标前景预览](preview.png)
 
@@ -53,7 +53,8 @@ com.finshell.wallet.webp
 
 - 简洁符号编辑 `src/*.svg`；精细图稿源文件位于 `src-raster/*.png`。`catalog.json` 维护包名、源文件和渲染方式。
 - `prompts/engraved-2026-11-17.json` 保存生图提示词。构建只统一尺寸及透明安全留白，不重新描画细节。
-- `prompts/additions-2026-11-17-five.json` 保存本次新增图稿的生图候选提示词；番茄小说与三体视界最终采用 `src/*.svg`，其余三款采用 `src-raster/*.png`。
+- `prompts/additions-2026-11-17-five.json` 保存 11 月 17 日新增图稿的生图候选提示词。番茄小说与三体视界采用 `src/*.svg`，其余三款采用 `src-raster/*.png`。
+- `prompts/yunxi.json` 保存云析图标的生图提示词。
 - 安装 `Pillow` 和 `fonttools`，执行 `python tools/build.py`。
 - 脚本重新生成 `icons/*.png`、`index.json` 的散列与 `preview.png`。
 - `python tools/validate.py` 检查所有公开数据及素材。
