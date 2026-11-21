@@ -336,6 +336,14 @@
       "sha256": "ac1e0f8a99465c05b344bd1c8b8c3a60cebf7f29dc29dfab317ac8920bd0ab5c",
       "dynamic": "",
       "render": "engraved"
+    },
+    {
+      "package": "com.oneplus.member",
+      "label": "My OnePlus",
+      "path": "icons/my-oneplus.png",
+      "sha256": "f4c0073878ca68a6422f7ea590f31975feed03600e09e3928422a24a2567471d",
+      "dynamic": "",
+      "render": "engraved"
     }
   ]
 }

@@ -301,5 +301,12 @@
     "dynamic": "",
     "source": "src-raster/yunxi.png",
     "render": "engraved"
+  },
+  {
+    "id": "my-oneplus",
+    "label": "My OnePlus",
+    "packages": ["com.oneplus.member"],
+    "dynamic": "",
+    "render": "engraved"
   }
 ]
